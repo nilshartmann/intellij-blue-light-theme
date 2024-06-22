@@ -1,0 +1,3 @@
+- AllIcons: https://github.com/JetBrains/intellij-community/blob/idea/241.17890.1/platform/util/ui/src/com/intellij/icons/AllIcons.java
+- Icons: https://github.com/jesseweed/seti-ui/tree/master/icons
+- FFF7F8FA name: MainToolbar.Dropdown.background

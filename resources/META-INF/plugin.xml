@@ -18,7 +18,7 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    My Light IntelliJ Theme mainly a copy with adjustments of the Kerry Light Theme
+    My Light IntelliJ Theme mainly a copy with adjustments of the Gerry Light Theme
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
