@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>blue-light-theme</id>
-    <version>1.2.14</version>
+    <version>1.2.16</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -22,9 +22,9 @@
 
     <p>It also replaces some icons with SVGs from https://github.com/jesseweed/seti-ui/tree/master/icons and contains a customized Editor Color Scheme.</p>
 
-    <p>Note: There are some problems with the (Main) Toolbar. I have no clue how to fix. Ffor example the Project Widget always uses
-    File status colors for foreground and that doesn't work when the Maintool bar has a darkblue background, but the project explorer
-    has a light background. Also some of the backgrounds of the Toolbar's widgets are not correct, but I couldn't figure out how to set them correctly).
+    <p>Note: There are some problems with the (Main) Toolbar. I have no clue how to fix. For example the Project Widget always uses
+    File status colors for foreground and that doesn't work when the Toolbar has a darkblue background while the project explorer
+    has a light background. Also some of the backgrounds of the Toolbar widgets are not correct, but I couldn't figure out how to set them correctly).
     For this (and other) reasons I have disabled the toolbar at all.</p>
 
     <p><b>Sources:</b></p>

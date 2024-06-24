@@ -2,7 +2,7 @@
   "name": "Blue Light Theme",
   "dark": false,
   "author": "Nils Hartmann",
-  "editorScheme": "/theme/blue_light_editor_colors.xmll",
+  "editorScheme": "/theme/blue_light_editor_colors.xml",
   "colors": {
     "bg": "#ffffff",
     "second": "#f0f0f5",
