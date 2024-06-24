@@ -16,7 +16,7 @@
     "shadow": "#212121",
     "deepBg": "#ffffff",
     "white": "#c8d3f5",
-    "blue": "#70b0ff",
+    "blue": "#ff0000",
     "red": "#ff757f",
     "yellow": "#ffbd76",
     "green": "#7af8ca",
@@ -311,9 +311,16 @@
       "selectionInactiveForeground": "selFg"
     },
     "MainToolbar": {
-      "background": "#000000",
+      "foreground": "bg",
+      "background": "#007acc",
+      "Icon": {
+        "background": "#007acc"
+      },
       "Dropdown": {
-        "background": "#5c6058"
+        "foreground": "bg",
+        "background": "#0271bc",
+        "hoverBackground": "#0271bc",
+        "hoverForeground": "bg"
       }
     },
     "MemoryIndicator": {
@@ -443,7 +450,7 @@
     },
     "RunWidget": {
       "runningBackground": "second",
-      "foreground": "fg"
+      "foreground": "bg"
     },
     "SearchEverywhere": {
       "Advertiser": {

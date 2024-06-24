@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>nils-intellij-light-theme</id>
-    <version>1.2.3</version>
+    <version>1.2.12</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -19,6 +19,8 @@
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
     My Light IntelliJ Theme mainly a copy with adjustments of the Gerry Light Theme
+
+    There are still some problems with the Maintoolbar. I have no clue how to fix.
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
