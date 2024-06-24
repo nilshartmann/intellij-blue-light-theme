@@ -1,16 +1,16 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>nils-intellij-light-theme</id>
-    <version>1.2.13</version>
+    <id>blue-light-theme</id>
+    <version>1.2.14</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Nils IntelliJ Light Theme</name>
+    <name>Blue Light Theme</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="kontakt@nilshartmann.net" url="https://nilshartmann.net">Nils Hartmann</vendor>
 
     <idea-version since-build="232" until-build="242.*"/>
 
@@ -18,12 +18,21 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    My Light IntelliJ Theme mainly a copy with adjustments of the Gerry Light Theme
+    This Light Theme is mainly a copy with some adjustments of the <a href="https://plugins.jetbrains.com/plugin/18922-gerry-themes">Gerry Light Theme</a>.
 
-    There are still some problems with the Maintoolbar. I have no clue how to fix (for example the Project Widget always uses
-    File status colors for foreground and that doesn't work while the Maintool bar has a dark background, but the project explorer
-    has a light background. Also some of the backgrounds in the Toolbar are not correct).
-    For this reasons I have disabled the toolbar at all. 
+    <p>It also replaces some icons with SVGs from https://github.com/jesseweed/seti-ui/tree/master/icons and contains a customized Editor Color Scheme.</p>
+
+    <p>Note: There are some problems with the (Main) Toolbar. I have no clue how to fix. Ffor example the Project Widget always uses
+    File status colors for foreground and that doesn't work when the Maintool bar has a darkblue background, but the project explorer
+    has a light background. Also some of the backgrounds of the Toolbar's widgets are not correct, but I couldn't figure out how to set them correctly).
+    For this (and other) reasons I have disabled the toolbar at all.</p>
+
+    <p><b>Sources:</b></p>
+    <ul>
+    <li><a href="https://plugins.jetbrains.com/plugin/18922-gerry-themes">Gerry Light Theme</a></li>
+    <li>Icons: <a href="https://github.com/jesseweed/seti-ui/tree/master/icons">https://github.com/jesseweed/seti-ui/tree/master/icons</a></li>
+    <li>Same theme for VS Code: <a href="https://marketplace.visualstudio.com/items?itemName=msnilshartmann.blue-light">VS Code Blue Light Theme</a></li>
+    </ul>
 
   ]]></description>
 
@@ -38,6 +47,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="nils-intellij-light-theme" path="/theme/nilsintellijlighttheme.theme.json"/>
+        <themeProvider id="blue-light-theme" path="/theme/bluelighttheme.theme.json"/>
     </extensions>
 </idea-plugin>

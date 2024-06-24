@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/nils-intellij-light-theme.iml" filepath="$PROJECT_DIR$/nils-intellij-light-theme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij-blue-light-theme.iml" filepath="$PROJECT_DIR$/intellij-blue-light-theme.iml" />
     </modules>
   </component>
 </project>
