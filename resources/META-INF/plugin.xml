@@ -20,7 +20,11 @@
     <description><![CDATA[
     My Light IntelliJ Theme mainly a copy with adjustments of the Gerry Light Theme
 
-    There are still some problems with the Maintoolbar. I have no clue how to fix.
+    There are still some problems with the Maintoolbar. I have no clue how to fix (for example the Project Widget always uses
+    File status colors for foreground and that doesn't work while the Maintool bar has a dark background, but the project explorer
+    has a light background. Also some of the backgrounds in the Toolbar are not correct).
+    For this reasons I have disabled the toolbar at all. 
+
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
