@@ -31,7 +31,8 @@
     <option name="FILESTATUS_MODIFIED" value="282828" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="" />
-    <option name="FILESTATUS_RENAMED" value="ff00d3" />
+    <option name="FILESTATUS_RENAMED" value="282828" />
+    <option name="FILESTATUS_UNKNOWN" value="282828" />
     <option name="FILESTATUS_addedOutside" value="" />
     <option name="FILESTATUS_changelistConflict" value="" />
     <option name="FILESTATUS_modifiedOutside" value="" />
@@ -46,6 +47,22 @@
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="BASH.EXTERNAL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="73bf" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="BASH.SHEBANG">
+      <value>
+        <option name="FOREGROUND" value="969696" />
+      </value>
+    </option>
+    <option name="BASH.VAR_USE_COMPOSED">
+      <value>
+        <option name="FOREGROUND" value="a44185" />
+      </value>
+    </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="ffc8c8" />
@@ -155,7 +172,7 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="a44185" />
+        <option name="FOREGROUND" value="3d9189" />
       </value>
     </option>
     <option name="DEFAULT_TAG" baseAttributes="TEXT" />
@@ -302,6 +319,11 @@
       <value>
         <option name="BACKGROUND" value="d0d8fa" />
         <option name="ERROR_STRIPE_COLOR" value="8e8eb2" />
+      </value>
+    </option>
+    <option name="SQL_DATABASE_OBJECT">
+      <value>
+        <option name="FOREGROUND" value="48862d" />
       </value>
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
