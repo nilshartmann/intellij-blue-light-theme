@@ -27,6 +27,13 @@
     has a light background. Also some of the backgrounds of the Toolbar widgets are not correct, but I couldn't figure out how to set them correctly).
     For this (and other) reasons I have disabled the toolbar at all.</p>
 
+    <p><b>Fonts I use</b></p>
+    <ul>
+    <li>IDE: SF Font Pro (on MacOS, on other platforms I'd suggest OS default font)</li>
+    <li>Source-Code: <a href="https://www.monolisa.dev/">Mono Lisa</a>. If you don't want to pay for a font I'd recommend  <a href="https://github.com/tonsky/FiraCode">FiraCode</a></li>
+    <li>Terminal: <a href="https://github.com/tonsky/FiraCode">FiraCode Nerd Font Mono</a></li>
+    </ul>
+
     <p><b>Sources:</b></p>
     <ul>
     <li><a href="https://plugins.jetbrains.com/plugin/18922-gerry-themes">Gerry Light Theme</a></li>
