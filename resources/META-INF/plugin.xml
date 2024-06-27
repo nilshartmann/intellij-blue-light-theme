@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>blue-light-theme</id>
-    <version>1.2.18</version>
+    <version>1.2.19</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -19,6 +19,7 @@
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
     This Light Theme is mainly a copy with some adjustments of the <a href="https://plugins.jetbrains.com/plugin/18922-gerry-themes">Gerry Light Theme</a>.
+    <p>Its goal is to create a clean, clutter-free, light Look of IntelliJ and WebStorm (the IDEs I'm using).</p>
 
     <p>It also replaces some icons with SVGs from https://github.com/jesseweed/seti-ui/tree/master/icons and contains a customized Editor Color Scheme.</p>
 
@@ -27,9 +28,10 @@
     has a light background. Also some of the backgrounds of the Toolbar widgets are not correct, but I couldn't figure out how to set them correctly).
     For this (and other) reasons I have disabled the toolbar at all.</p>
 
-    <p><b>Fonts I use</b></p>
+    <p><b>Fonts</b></p>
+    <p>I use the following fonts in my setup:</p>
     <ul>
-    <li>IDE: SF Font Pro (on MacOS, on other platforms I'd suggest OS default font)</li>
+    <li>IDE: SF Font Pro (on MacOS, on other platforms I'd suggest using the OS default font)</li>
     <li>Source-Code: <a href="https://www.monolisa.dev/">Mono Lisa</a>. If you don't want to pay for a font I'd recommend  <a href="https://github.com/tonsky/FiraCode">FiraCode</a></li>
     <li>Terminal: <a href="https://github.com/tonsky/FiraCode">FiraCode Nerd Font Mono</a></li>
     </ul>
@@ -46,7 +48,9 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    <ul><li><b>1.2.18</b>: Colors for SQL and Shell Script. Fixed file status color for "unknown"</li>
+    <ul><li>
+    <li><b>1.2.19</b>: Editor colors in JSON files</li>
+    <b>1.2.18</b>: Colors for SQL and Shell Scripts. Fixed file status color for "unknown"</li>
     </ul>
   ]]></change-notes>
 

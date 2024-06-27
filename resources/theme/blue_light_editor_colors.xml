@@ -302,6 +302,17 @@
       </value>
     </option>
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
+    <option name="JSON.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="b052a1" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="3778b7" />
+      </value>
+    </option>
     <option name="MARKDOWN_HEADER_LEVEL_1">
       <value>
         <option name="FOREGROUND" value="a44185" />
