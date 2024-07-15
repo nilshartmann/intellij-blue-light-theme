@@ -37,18 +37,21 @@
     "/nodes/ideaModule.svg": "/theme/icons/folder.svg",
     "/nodes/javaModule.svg": "/theme/icons/folder.svg",
     "/nodes/module.svg":  "/theme/icons/folder.svg",
+    "/expui/nodes/module.svg": "/theme/icons/folder.svg",
     "/nodes/package.svg": "/theme/icons/folder.svg",
     "/fileTypes/css.svg": "/theme/icons/css.svg",
     "/fileTypes/ignored.svg": "/theme/icons/folder.svg",
     "/fileTypes/image.svg": "/theme/icons/svg.svg",
     "/fileTypes/javaScript.svg": "/theme/icons/javascript.svg",
     "/fileTypes/expui/typeScript.svg": "/theme/icons/folder.svg",
+    "/typeScript": "/theme/icons/typescript.svg",
     "/fileTypes/expui/tsx.svg": "/theme/icons/react.svg",
     "/fileTypes/tsx.svg": "/theme/icons/react.svg",
     "/fileTypes/yaml.svg": "/theme/icons/yml.svg",
     "/icons/expui/fileTypes/typeScript.svg": "/theme/icons/typescript.svg",
     "/icons/fileTypes/typeScript.svg": "/theme/icons/typescript.svg",
-    "/fileTypes/typeScript.svg": "/theme/icons/typescript.svg"
+    "/fileTypes/typeScript.svg": "/theme/icons/typescript.svg",
+    "/expui/fileTypes/typeScript.svg": "/theme/icons/typescript.svg"
   },
   "ui": {
     "*": {
