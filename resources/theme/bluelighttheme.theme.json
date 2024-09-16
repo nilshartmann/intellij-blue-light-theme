@@ -43,15 +43,9 @@
     "/fileTypes/ignored.svg": "/theme/icons/folder.svg",
     "/fileTypes/image.svg": "/theme/icons/svg.svg",
     "/fileTypes/javaScript.svg": "/theme/icons/javascript.svg",
-    "/fileTypes/expui/typeScript.svg": "/theme/icons/folder.svg",
-    "/typeScript": "/theme/icons/typescript.svg",
     "/fileTypes/expui/tsx.svg": "/theme/icons/react.svg",
     "/fileTypes/tsx.svg": "/theme/icons/react.svg",
-    "/fileTypes/yaml.svg": "/theme/icons/yml.svg",
-    "/icons/expui/fileTypes/typeScript.svg": "/theme/icons/typescript.svg",
-    "/icons/fileTypes/typeScript.svg": "/theme/icons/typescript.svg",
-    "/fileTypes/typeScript.svg": "/theme/icons/typescript.svg",
-    "/expui/fileTypes/typeScript.svg": "/theme/icons/typescript.svg"
+    "/fileTypes/yaml.svg": "/theme/icons/yml.svg"
   },
   "ui": {
     "*": {
@@ -658,11 +652,12 @@
       "foreground": "fg",
       "hash": "border",
       "hoverBackground": "selBg",
+      "forceFocusedSelectionForeground": "true",
       "hoverInactiveBackground": "selBg",
       "modifiedItemForeground": "accent",
-      "selectionBackground": "selBg",
-      "selectionForeground": "selFg",
-      "selectionInactiveBackground": "selBg",
+      "selectionBackground": "#e8e8e8",
+      "selectionForeground": "#5a7685",
+      "selectionInactiveBackground": "#f2f2f2",
       "rowHeight": 24
     },
     "ValidationTooltip": {
