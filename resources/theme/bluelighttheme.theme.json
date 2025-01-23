@@ -415,7 +415,7 @@
         "activeBackground": "bg",
         "inactiveBackground": "bg"
       },
-      "paintBorder": true,
+      "paintBorder": false,
       "Toolbar": {
         "background": "bg",
         "borderColor": "bg"
